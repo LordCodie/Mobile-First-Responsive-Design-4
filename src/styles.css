@@ -1,0 +1,12 @@
+/* Base Styles (extra small devices - mobile) */
+/* CSS rules */
+
+/* Small devices (tablets) */
+@media screen and (min-width: 744px) {
+    /* CSS rules */
+}
+
+/* Large devices (desktops) */
+@media screen and (min-width: 1440px) {
+    /* CSS rules */
+}
