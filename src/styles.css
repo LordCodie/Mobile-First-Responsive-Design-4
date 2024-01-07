@@ -24,6 +24,10 @@ body {
     display: flex;
 }
 
+#navlist {
+    display: none;
+}
+
 h1 {
     font-family: Inter, sans-serif;
     font-size: 30px;
@@ -56,7 +60,7 @@ h2 {
 .subtitle-text {
     font-family: Inter, sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
     color: #FFFFFF;
     width: 314px;
@@ -105,6 +109,18 @@ h3 {
     margin: 32px auto;
 }
 
+#french,
+#picasso,
+#venice {
+    display: block;
+}
+
+#french-tablet,
+#picasso-tablet,
+#venice-tablet {
+    display: none;
+}
+
 .date {
     font-family: Inter, sans-serif;
     font-size: 13px;
@@ -135,13 +151,165 @@ h3 {
     margin: 18px 32px 32px 183px;
 }
 
+#desktop-pic {
+    display: none;
+}
+
 
 /* Small devices (tablets) */
 @media screen and (min-width: 744px) {
-    /* CSS rules */
+    #top-section {
+        background-image: url(Background-tablet.svg);
+    }
+
+    #hamburger {
+        margin-left: 478px;
+    }
+
+    #title-section {
+        margin-right: 72px;
+        margin-left: 72px;
+        max-width: 600px;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 86.52px;
+    }
+
+    .subtitle-text {
+        width: 528px;
+    }
+
+    #bottom-section {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 61px;
+    }
+
+    #french,
+    #picasso,
+    #venice {
+        display: none;
+    }
+
+    #french-tablet,
+    #picasso-tablet,
+    #venice-tablet {
+        display: block;
+    }
+
+    #newscard {
+        width: 187px;
+    }
+
+    .date {
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .news-title {
+        font-size: 15px;
+        line-height: 18.15px;
+        width: 123px;
+    }
+
+    .read-more-1 {
+        margin: 28px 32px 32px 59px;
+    }
+
+    .read-more-2 {
+        margin: 46px 32px 32px 58px;
+    }
+
+    .read-more-3 {
+        margin: 64px 32px 32px 59px;
+    }
+
+    #desktop-pic {
+        display: none;
+    }
+
 }
 
 /* Large devices (desktops) */
 @media screen and (min-width: 1440px) {
-    /* CSS rules */
+    #top-section {
+        background-image: url(Background-desktop.svg);
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #navbar {
+        margin-right: 0;
+    }
+
+    #navlist {
+        display: flex;
+        margin: 32px 0px 221px 370px;
+    }
+
+    .pages li {
+        display: inline;
+        font-family: Inter, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-right: 35px;
+        padding: 0;
+    }
+
+    .button-box-1 {
+        margin: 0;
+    }
+
+    #title-section {
+        margin-top: 0px;
+    }
+
+    #bottom-section {
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-bottom: 61px;
+    }
+
+    #french-tablet,
+    #picasso-tablet,
+    #venice-tablet {
+        display: none;
+    }
+
+    #newscard {
+        width: 419px;
+    }
+
+    .date {
+        width: 100%;
+    }
+
+    .news-title {
+        font-size: 25px;
+        line-height: 30.26px;
+        width: 355px;
+    }
+
+    .read-more-1 {
+        margin: 34px 32px 32px 291px;
+    }
+
+    .read-more-2 {
+        margin: 34px 32px 32px 291px;
+    }
+
+    .read-more-3 {
+        margin: 64px 32px 32px 291px;
+    }
+
+    #desktop-pic {
+        display: block;
+    }
 }
